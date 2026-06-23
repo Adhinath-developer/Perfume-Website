@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Adhinath-developer.github.io/Perfume-Website",
   "name": "react-vite-tailwind",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +12,6 @@
   "dependencies": {
     "@types/three": "^0.184.1",
     "clsx": "2.1.1",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.15.0",
     "lenis": "^1.3.23",
     "react": "19.2.6",

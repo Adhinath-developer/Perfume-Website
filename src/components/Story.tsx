@@ -157,7 +157,7 @@ export default function Story() {
           style={{
             position: 'absolute',
             inset: '-10%',
-            backgroundImage: `url(/images/story-bg.jpg)`,
+            backgroundImage: `url(${import.meta.env.BASE_URL}images/story-bg.jpg)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             transform: 'scale(1.12)',

@@ -291,7 +291,7 @@ export default function HeroCanvas() {
       ref={mountRef}
       style={{
         position: 'absolute', inset: 0,
-        backgroundImage: 'url(/images/hero-bg.jpg)',
+        backgroundImage: `url(${import.meta.env.BASE_URL}images/hero-bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
